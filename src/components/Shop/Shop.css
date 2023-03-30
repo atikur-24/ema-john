@@ -4,17 +4,21 @@
 }
 
 .product-container {
-    margin: 120px 80px 0 100px;
+    margin: 120px 50px 0 100px;
 }
 
 .product-container > h1 {
     text-align: center;
-    background: lightblue;
     margin: 0;
 }
 
 .cart-container {
     background-color: #FFE0B3;
+    color: #1C2B35;
+    padding: 0 18px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
 }
 .products {
     display: grid;

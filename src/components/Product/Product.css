@@ -3,6 +3,7 @@
     height: 508px;
     width: 300px;
     border: 1px solid #95A0A7;
+    color: #0E161A;
     border-radius: 8px;
 }
 
@@ -21,7 +22,6 @@
 }
 
 .product-title {
-    color: #0E161A;
     font-size: 21px;
     letter-spacing: 0.0015em;
     margin-top: 0;
@@ -29,7 +29,6 @@
 }
 
 .product-price {
-    color: #0E161A;
     font-size: 17px;
 }
 
@@ -48,4 +47,8 @@
     font-size: 15px;
     position: absolute;
     bottom: 0;
+    cursor: pointer;
+}
+.cart-btn:hover {
+    background-color: #FF9900;
 }

@@ -1,0 +1,26 @@
+.cart-title {
+    text-align: center;
+    font-size: 23px;
+}
+.cart-info {
+    padding-top: 30px;
+}
+.total-title {
+    font-size: 21px;
+}
+
+.cart-btn-common {
+    background: #FF3030;
+    border-radius: 4px;
+    border: 0;
+    color: #ffff;
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.review-btn {
+    margin-top: 20px;
+    background-color: #FF9900;
+}
