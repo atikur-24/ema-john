@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    background: lightblue;
+}
+
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;    
+}
+
+.product-container {
+    margin: 120px 80px 0 100px;
+    background-color: lightcoral;
+}
+
+.cart-container {
+    background-color: #FFE0B3;
+}
