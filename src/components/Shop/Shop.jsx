@@ -13,14 +13,13 @@ const Shop = () => {
   }, []);
 
   const handlerAddToCart = (product) => {
-    const newCart = [...cart, product]
-    setCart(newCart)
-  }
+    const newCart = [...cart, product];
+    setCart(newCart);
+  };
 
   return (
     <div className="shop-container">
       <div className="product-container">
-        <h1>Buys Shoes for Men</h1>
         <div className="products">
           {products.map((product) => (
             <Product key={product.id} product={product} handlerAddToCart={handlerAddToCart}></Product>
