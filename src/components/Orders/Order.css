@@ -1,0 +1,11 @@
+.order-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 100px;
+}
+
+.order-summary {
+    background-color: #FFCB7D;
+    height: 100%;
+    border-radius: 8px;
+}
