@@ -26,3 +26,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+.review-link-btn {
+    text-decoration: none;
+}
