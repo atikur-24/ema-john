@@ -2,3 +2,11 @@
     color: crimson;
     letter-spacing: 0.0025em;
 }
+
+.show-password {
+    display: inline-block;
+    color: #2A414F;
+    cursor: pointer;
+    margin: 0;
+    padding-top: 5px;
+}
