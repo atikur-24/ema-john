@@ -1,0 +1,19 @@
+.spinner-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #999;
+    border-top-color: #333;
+    animation: spinner 0.6s linear infinite;
+}
+  
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+  

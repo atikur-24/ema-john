@@ -9,9 +9,30 @@ nav.header a {
     text-decoration: none;
     color: #ffff;
     margin-left: 32px;
+    transition-property: color underline;
 }
 
 nav.header a:hover {
     color: #FF9900;
     text-decoration: underline;
+    transition-duration: 200ms;
+}
+
+.user-email {
+    color: #fff;
+    margin-left: 32px;
+}
+
+.btn-signOut {
+    margin-left: 32px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    cursor: pointer;
+    transition-property: background-color;
+}
+
+.btn-signOut:hover {
+    background-color: #FF9900;
+    transition-duration: 200ms;
 }
