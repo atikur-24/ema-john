@@ -1,0 +1,69 @@
+.form-container {
+    box-sizing: border-box;
+    width: 500px;
+    height: 600px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin: 50px auto;
+    padding-left: 22px;
+}
+
+.form-title {
+    font-size: 35px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+}
+
+.from-control {
+    margin-bottom: 20px;
+}
+
+.from-control label {
+    display: block;
+    font-size: 17px;
+    letter-spacing: 0.0015em;
+    margin-bottom: 9px;
+}
+
+.from-control input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    letter-spacing: 0.0025em;
+}
+
+.btn-submit {
+    width: 415px;
+    height: 55px;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 21px;
+    letter-spacing: 0.0015em;
+    margin-top: 24px;
+}
+
+.btn-submit:hover {
+    background: rgba(255, 153, 0, 0.6);
+}
+
+.route-text {
+    text-align: center;
+    margin-top: 8px;
+    letter-spacing: 0.0025em;
+}
+
+.change-route-text {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.change-route-text:hover {
+    text-decoration: underline;
+    color: #FF9900;
+}
