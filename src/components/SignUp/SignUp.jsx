@@ -55,18 +55,22 @@ const SignUp = () => {
                     <label htmlFor="password">Password</label>
                     <input type={showPassword ? "text" : "password"} name="password" required />
                 <p className='show-password' onClick={ ()=> setShowPassword(!showPassword) }>
-                {
-                    showPassword ? <small>Hide password</small> : <small> Show password</small>
-                }
+                    <small>
+                        {
+                            showPassword ? <span>Hide password</span> : <span>Show password</span>
+                        }
+                    </small>
                 </p>
                 </div>
                 <div className="from-control">
                     <label htmlFor="confirm">Confirm Password</label>
                     <input type={confirmPassword ? "text" : "password"} name="confirm" required />
                 <p className='show-password' onClick={ ()=> setConfirmPassword(!confirmPassword) }>
-                {
-                    confirmPassword ? <small>Hide password</small> : <small> Show password</small>
-                }
+                    <small>
+                        {
+                            confirmPassword ? <span>Hide password</span> : <span>Show password</span>
+                        }
+                    </small>
                 </p>
                 </div>
                 <input className='btn-submit' type="submit" value="Sign Up" />

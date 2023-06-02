@@ -30,3 +30,19 @@
 .review-link-btn {
     text-decoration: none;
 }
+
+.pagination {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.pagination-btn {
+    padding: 10px 15px;
+    border: 0;
+    margin-right: 20px;
+    background-color: #ECEFF1;
+    font-weight: bold;
+}
+.pagination .selected {
+    background-color: #FF9900;
+}
